@@ -28,7 +28,7 @@
             <h2>Recetas Saladas.</h2>
 
             <article>
-                <img src="./public/pasta_alfredo.jpg" alt="imagen sobre la receta de la pasta alfredo">
+                <img src="./public/pasta_alfredo.jpg" alt="imagen sobre la receta de la pasta alfredo" width="70%">
                 <h3>Pasta Alfredo.</h3>
                 <h4>Ingredientes.</h4>
                     <ul>
@@ -50,7 +50,8 @@
             </article>
 
             <article>
-                <img src="./public/ensalda-quinoa.jpg" alt="imagen sobre la ensalda quinoa">
+                <img src="./public/ensalda-quinoa.jpg" alt="imagen sobre la ensalda quinoa" width="70%">
+                <h2>Ensalda de Quinoa</h2>
                 <h3>Ingredientes</h3>
                     <ul>
                         <li>Quinoa cocida.</li>
@@ -60,6 +61,7 @@
                         <li>Cilantro fresco.</li>
                         <li>Aderezo de limón..</li>
                     </ul>
+
                 <h4>Pasos de Preparación:</h4>
                     <ul>
                         <li>Combina la quinoa cocida, aguacate en cubos, tomates cherry cortados a la mitad y rodajas de pepino.</li>
@@ -70,9 +72,82 @@
             </article>
         </section>
 
+        <section id="recetas-dulces">
+            <h2>Recentas Dulces.</h2>
 
+            <article>
+                <img src="./public/brownie-de-chocolate.jpg" alt="imagen sobre el brownie de chocolate" width="70%">
+                <h3>Brownie de Chocolate.</h3>
+                <h4>Ingredientes</h4>
+                    <ul>
+                        <li>harina.</li>
+                        <li>Cocoa en polvo.</li>
+                        <li>Azúcar.</li>
+                        <li>Huevos.</li>
+                        <li>Mantequilla.</li>
+                        <li>Esencia de vainilla.</li>
+                        <li>Nueces (opcional).</li>
+                    </ul>
+                
+                <h5>Pasos de Preparación:</h5>   
+                    <ul>
+                        <li>Mezcla harina, cacao en polvo y azúcar en un tazón.</li>
+                        <li>Agrega huevos y mantequilla derretida. Mezcla hasta obtener una masa suave.</li>
+                        <li>Añade esencia de vainilla y nueces (si prefieres).</li>
+                        <li>Vierte la mezcla en un molde y hornea según las indicaciones.</li>
+                        <li>Deja enfriar antes de cortar en porciones.</li>
+                    </ul>
+            </article> 
 
+            <article>
+                <img src="./public/helado-de-fresa-casero.jpg" alt="imagen sobre el helado de fresa" width="70%">
+                <h3>Helado de fresa casero.</h3>
+                <h4>Ingredientes:</h4>
+                    <ul>
+                        <li>fresas frescas.</li>
+                        <li>Azúcar.</li>
+                        <li>Leche.</li>
+                        <li>Crema de leche.</li>
+                    </ul>
+
+                <h5>Pasos de Preparación:</h5>
+                    <ul>
+                        <li>Mezcla fresas frescas con azúcar y tritura para obtener un puré.</li>
+                        <li>En un tazón aparte, mezcla leche y crema de leche.</li>
+                        <li>Combina el puré de fresas con la mezcla de leche y crema.</li>
+                        <li>Vierte la mezcla en una máquina de helados o en un recipiente para congelar.</li>
+                        <li>Congela hasta que esté firme y sirve.</li>
+                    </ul> 
+            </article>
+        </section>
+
+        <section id="formulario">
+            <h2>Envía tu receta.</h2>
+
+            <form>
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre.</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </li> <br>
+
+                    <li>
+                        <label for="nombre-receta">Nombre de la Receta.</label>
+                        <input type="text" id="nombre-receta" name="nombre-receta" required>
+                    </li> <br>
+
+                    <li>
+                        <label for="receta">Receta.</label>
+                        <textarea id="receta" name="receta" rows="5" required></textarea>
+                    </li> <br>
+                </ul> 
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
-        
+     
+    <footer>
+        <p>&copy;Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
