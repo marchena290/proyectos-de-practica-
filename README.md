@@ -5,3 +5,4 @@ Este proyecto es una página web simple dedicada a compartir y mostrar recetas. 
 ## Estructura de Carpetas
 
 - `index.html`: Archivo principal que estructura la página.
+- `styles.css`: Archivo principal para los estilos de la página.
